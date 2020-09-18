@@ -7,8 +7,13 @@
   text-align: center;
 }
 
+.background-image {
+  width: 100%;
+  height: auto;
+}
+
 @media only screen and (orientation: landscape) {
-  #overlay-text-field{
+  #overlay-text-field {
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
@@ -25,20 +30,19 @@
     text-align: center;
   }
 }
+
 @media only screen and (orientation: portrait) {
-  #overlay-text-field{
+  #overlay-text-field {
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 5vw;
     border: 10px solid #f1f1f1;
     position: fixed;
-    top: 5%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 300px;
+    top: 5vh;
+    left: 5vw;
+    width: 25vw;
     padding: 10px;
     text-align: center;
   }
